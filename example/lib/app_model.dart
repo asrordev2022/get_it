@@ -22,7 +22,7 @@ class AppModelImplementation extends AppModel {
 
   @override
   void incrementCounter() {
-    _counter++;
+    _counter-=2;
     notifyListeners();
   }
 }
